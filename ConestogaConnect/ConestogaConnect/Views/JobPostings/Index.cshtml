@@ -1,0 +1,146 @@
+﻿@model IEnumerable<ConestogaConnect.Models.JobPosting>
+@using Microsoft.AspNet.Identity;
+
+
+@{
+    ViewBag.Title = "Index";
+}
+<div class="row">
+    <div class="col-lg-6"><h2 align="center">Jobs List</h2></div>
+    <div class="col-lg-6">
+        <a href="JobPostings/Create">
+            <img src="~/Content/Images/addbutton.png" class="img-responsive" id="postpadding" alt="button" style="width:7% !important;padding-top:7px; display: block; margin-left: auto; margin-right: auto" />
+            <p align="center">Add Job</p><br />
+        </a>
+    </div>
+</div>
+
+<hr />
+<div class="row">
+
+    <div class="col-lg-3">
+    </div>
+    <div class="col-lg-6">
+        <div class="container">
+
+
+
+
+            @foreach (var item in Model)
+            {
+                <div class="row" id="postpadding" style="border:thin solid #e2e2e2">
+                    <img src="~/Content/Images/dp.jpg" class="img-circle" height=30> <b>Sandeep Kaur</b>
+                </div>
+                <div class="row" style=" border:thin solid #e2e2e2" id="postpadding">
+
+                    <table class="table-borderless" border='0'>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.JobPostingNumber)
+                            </th>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.JobPostingNumber)
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <th>
+                                @Html.DisplayNameFor(model => model.JobTitle)
+                            </th>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.JobTitle)
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.JobDescription)
+                            </th>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.JobDescription)
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.JobType)
+                            </th>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.JobType)
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Salary)
+                            </th>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Salary)
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Experience)
+                            </th>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Experience)
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Location)
+                            </th>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Location)
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.JobSubTitle)
+                            </th>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.JobSubTitle)
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Posted_Date)
+                            </th>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Posted_Date)
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <th>
+                                @Html.DisplayNameFor(model => model.Last_Updated)
+                            </th>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Last_Updated)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                @if (User.Identity.GetUserId() == item.UserId)
+                                {
+                                    @Html.ActionLink("Edit", "Edit", new { id = item.Id })
+                                }
+                                |
+                                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                                @if (User.Identity.GetUserId() == item.UserId)
+                                {
+                                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                                }
+                            </td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="conatiner" style="padding-top:10px">
+
+                </div>
+            }
+
+
+
+        </div>
+    </div>
+    <div class="col-lg-3"></div>
+</div>

@@ -1,0 +1,105 @@
+﻿@model IEnumerable<ConestogaConnect.Models.Accomodation>
+
+@{
+    ViewBag.Title = "DisplayAccomodations";
+}
+
+<h2>DisplayAccomodations</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        
+        <th>
+            @Html.DisplayNameFor(model => model.Number_of_Rooms)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rent)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Facilities)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PetFriendly)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Parking)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Floor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Furnished)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Posted_Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Last_Updated)
+        </th>
+       
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.Number_of_Rooms)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Rent)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Facilities)
+        </td>
+        <td>
+            @if (item.PetFriendly == true)
+            {
+                <p>Yes</p>
+            }
+            @if (item.PetFriendly == false)
+            {
+                <p>No</p>
+            }
+        </td>
+        <td>
+            @if (item.Parking == true)
+            {
+                <p>Yes</p>
+            }
+            @if (item.Parking == false)
+            {
+                <p>No</p>
+            }
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Floor)
+        </td>
+        <td>
+            @if (item.Furnished == true)
+            {
+                <p>Yes</p>
+            }
+            @if (item.Furnished == false)
+            {
+                <p>No</p>
+            }
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Posted_Date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Last_Updated)
+        </td>
+        
+        <td>
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model2StoreContainer" CdmEntityContainer="AccomodationEntities">
+    <EntitySetMapping Name="Accomodations">
+      <EntityTypeMapping TypeName="Model2.Accomodation">
+        <MappingFragment StoreEntitySet="Accomodation">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Number_of_Rooms" ColumnName="Number_of_Rooms" />
+          <ScalarProperty Name="Rent" ColumnName="Rent" />
+          <ScalarProperty Name="Facilities" ColumnName="Facilities" />
+          <ScalarProperty Name="PetFriendly" ColumnName="PetFriendly" />
+          <ScalarProperty Name="Parking" ColumnName="Parking" />
+          <ScalarProperty Name="Floor" ColumnName="Floor" />
+          <ScalarProperty Name="Furnished" ColumnName="Furnished" />
+          <ScalarProperty Name="Posted_Date" ColumnName="Posted_Date" />
+          <ScalarProperty Name="Last_Updated" ColumnName="Last_Updated" />
+          <ScalarProperty Name="Image_Id" ColumnName="Image_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

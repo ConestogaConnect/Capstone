@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Model2.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Accomodation">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserId" Type="varchar" MaxLength="128" Nullable="false" />
+          <Property Name="Number_of_Rooms" Type="int" />
+          <Property Name="Rent" Type="varchar" MaxLength="128" Nullable="false" />
+          <Property Name="Facilities" Type="varchar" MaxLength="128" Nullable="false" />
+          <Property Name="PetFriendly" Type="bit" />
+          <Property Name="Parking" Type="bit" />
+          <Property Name="Floor" Type="varchar" MaxLength="150" Nullable="false" />
+          <Property Name="Furnished" Type="bit" />
+          <Property Name="Posted_Date" Type="datetime2" Precision="7" />
+          <Property Name="Last_Updated" Type="datetime2" Precision="7" />
+          <Property Name="Image_Id" Type="int" />
+        </EntityType>
+        <EntityContainer Name="Model2StoreContainer">
+          <EntitySet Name="Accomodation" EntityType="Self.Accomodation" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Model2" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Accomodation">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Number_of_Rooms" Type="Int32" />
+          <Property Name="Rent" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Facilities" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PetFriendly" Type="Boolean" />
+          <Property Name="Parking" Type="Boolean" />
+          <Property Name="Floor" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Furnished" Type="Boolean" />
+          <Property Name="Posted_Date" Type="DateTime" Precision="7" />
+          <Property Name="Last_Updated" Type="DateTime" Precision="7" />
+          <Property Name="Image_Id" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="AccomodationEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Accomodations" EntityType="Self.Accomodation" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Model2StoreContainer" CdmEntityContainer="AccomodationEntities">
+          <EntitySetMapping Name="Accomodations">
+            <EntityTypeMapping TypeName="Model2.Accomodation">
+              <MappingFragment StoreEntitySet="Accomodation">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="Number_of_Rooms" ColumnName="Number_of_Rooms" />
+                <ScalarProperty Name="Rent" ColumnName="Rent" />
+                <ScalarProperty Name="Facilities" ColumnName="Facilities" />
+                <ScalarProperty Name="PetFriendly" ColumnName="PetFriendly" />
+                <ScalarProperty Name="Parking" ColumnName="Parking" />
+                <ScalarProperty Name="Floor" ColumnName="Floor" />
+                <ScalarProperty Name="Furnished" ColumnName="Furnished" />
+                <ScalarProperty Name="Posted_Date" ColumnName="Posted_Date" />
+                <ScalarProperty Name="Last_Updated" ColumnName="Last_Updated" />
+                <ScalarProperty Name="Image_Id" ColumnName="Image_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

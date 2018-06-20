@@ -1,0 +1,649 @@
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\ApplicationInsights.config
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.dll.config
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.pdb
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Antlr3.Runtime.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\EntityFramework.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\EntityFramework.SqlServer.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Agent.Intercept.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.DependencyCollector.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Web.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.WindowsServer.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.ApplicationInsights.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Core.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Cookies.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Facebook.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Google.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.OAuth.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Twitter.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.Web.Infrastructure.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Newtonsoft.Json.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Owin.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\System.Web.Helpers.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\System.Web.Mvc.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\System.Web.Optimization.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\System.Web.Razor.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Deployment.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Razor.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\WebGrease.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\System.Web.Helpers.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\System.Web.Mvc.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\System.Web.Optimization.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\System.Web.Razor.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Deployment.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Razor.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Antlr3.Runtime.pdb
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Newtonsoft.Json.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\EntityFramework.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\EntityFramework.SqlServer.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Core.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Facebook.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Cookies.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.OAuth.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Google.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Twitter.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.ApplicationInsights.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.DependencyCollector.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.WindowsServer.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Web.xml
+F:\sem4\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csprojResolveAssemblyReference.cache
+F:\sem4\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csproj.CoreCompileInputs.cache
+F:\sem4\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.dll
+F:\sem4\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.pdb
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\ApplicationInsights.config
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.dll.config
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.pdb
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Antlr3.Runtime.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\EntityFramework.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\EntityFramework.SqlServer.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Agent.Intercept.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.DependencyCollector.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Web.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.WindowsServer.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.ApplicationInsights.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Core.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Cookies.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Facebook.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Google.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.OAuth.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Twitter.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.Web.Infrastructure.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Newtonsoft.Json.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Owin.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\System.Web.Helpers.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\System.Web.Mvc.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\System.Web.Optimization.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\System.Web.Razor.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Deployment.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Razor.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\WebGrease.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\System.Web.Helpers.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\System.Web.Mvc.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\System.Web.Optimization.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\System.Web.Razor.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Deployment.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Razor.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Antlr3.Runtime.pdb
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Newtonsoft.Json.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\EntityFramework.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\EntityFramework.SqlServer.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Core.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Facebook.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Cookies.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.OAuth.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Google.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Twitter.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.ApplicationInsights.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.DependencyCollector.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.WindowsServer.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Web.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csproj.CoreCompileInputs.cache
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.pdb
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate.resources
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csproj.GenerateResource.Cache
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate1.resources
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\SendGrid.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\SendGrid.pdb
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\bin\SendGrid.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate2.resources
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate3.resources
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csprojResolveAssemblyReference.cache
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate4.resources
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate5.resources
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate6.resources
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ApplicationInsights.config
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.dll.config
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.pdb
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Antlr3.Runtime.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.SqlServer.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Agent.Intercept.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.DependencyCollector.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Web.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.WindowsServer.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.ApplicationInsights.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Core.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Cookies.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Facebook.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Google.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.OAuth.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Twitter.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Web.Infrastructure.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Newtonsoft.Json.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Owin.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\SendGrid.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Helpers.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Mvc.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Optimization.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Razor.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Deployment.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Razor.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\WebGrease.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.SqlServer.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Newtonsoft.Json.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\SendGrid.pdb
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\SendGrid.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Helpers.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Mvc.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Optimization.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Razor.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Deployment.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Razor.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Antlr3.Runtime.pdb
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Core.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Facebook.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Cookies.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.OAuth.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Google.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Twitter.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.ApplicationInsights.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.DependencyCollector.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.WindowsServer.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Web.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate.resources
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate1.resources
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate2.resources
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate3.resources
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate4.resources
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate5.resources
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate6.resources
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csproj.GenerateResource.cache
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csproj.CoreCompileInputs.cache
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csproj.CopyComplete
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.pdb
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csprojAssemblyReference.cache
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ApplicationInsights.config
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.dll.config
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.pdb
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Antlr3.Runtime.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.SqlServer.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Agent.Intercept.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.DependencyCollector.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Web.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.WindowsServer.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.ApplicationInsights.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Core.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Cookies.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Facebook.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Google.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.OAuth.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Twitter.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Web.Infrastructure.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Newtonsoft.Json.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Owin.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\SendGrid.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Helpers.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Mvc.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Optimization.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Razor.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Deployment.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Razor.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\WebGrease.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.SqlServer.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Newtonsoft.Json.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\SendGrid.pdb
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\SendGrid.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Helpers.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Mvc.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Optimization.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Razor.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Deployment.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Razor.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Antlr3.Runtime.pdb
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Core.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Facebook.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Cookies.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.OAuth.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Google.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Twitter.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.ApplicationInsights.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.DependencyCollector.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.WindowsServer.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Web.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate.resources
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate1.resources
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate2.resources
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate3.resources
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate4.resources
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate5.resources
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate6.resources
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csproj.GenerateResource.Cache
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csproj.CoreCompileInputs.cache
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.pdb
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csprojResolveAssemblyReference.cache
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ApplicationInsights.config
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.dll.config
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.pdb
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Antlr3.Runtime.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.SqlServer.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Agent.Intercept.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.DependencyCollector.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Web.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.WindowsServer.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.ApplicationInsights.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Core.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Cookies.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Facebook.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Google.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.OAuth.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Twitter.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Web.Infrastructure.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Newtonsoft.Json.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Owin.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\SendGrid.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Helpers.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Mvc.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Optimization.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Razor.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Deployment.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Razor.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\WebGrease.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.SqlServer.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Newtonsoft.Json.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\SendGrid.pdb
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\SendGrid.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Helpers.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Mvc.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Optimization.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Razor.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Deployment.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Razor.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Antlr3.Runtime.pdb
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Core.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Facebook.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Cookies.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.OAuth.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Google.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Twitter.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.ApplicationInsights.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.DependencyCollector.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.WindowsServer.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Web.xml
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csprojAssemblyReference.cache
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate.resources
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate1.resources
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate2.resources
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate3.resources
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate4.resources
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate5.resources
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate6.resources
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csproj.GenerateResource.cache
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csproj.CoreCompileInputs.cache
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csproj.CopyComplete
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.dll
+G:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.pdb
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ApplicationInsights.config
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.dll.config
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.pdb
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Antlr3.Runtime.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.SqlServer.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Agent.Intercept.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.DependencyCollector.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.PerfCounterCollector.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.ServerTelemetryChannel.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Web.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.WindowsServer.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.ApplicationInsights.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Core.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Owin.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Host.SystemWeb.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Cookies.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Facebook.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Google.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.OAuth.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Twitter.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Web.Infrastructure.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Newtonsoft.Json.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Owin.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\SendGrid.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Helpers.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Mvc.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Optimization.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Razor.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Deployment.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Razor.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\WebGrease.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.SqlServer.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Newtonsoft.Json.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\SendGrid.pdb
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\SendGrid.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Helpers.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Mvc.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Optimization.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Razor.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Deployment.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Razor.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Antlr3.Runtime.pdb
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Core.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Owin.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Host.SystemWeb.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Facebook.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Cookies.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.OAuth.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Google.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Twitter.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.ApplicationInsights.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.DependencyCollector.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.ServerTelemetryChannel.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.WindowsServer.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Web.xml
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate.resources
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate1.resources
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate2.resources
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate3.resources
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate4.resources
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate5.resources
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate6.resources
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csproj.GenerateResource.cache
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csproj.CoreCompileInputs.cache
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csproj.CopyComplete
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.dll
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.pdb
+\\FSSTU02D\Stu4\Home\Sdhaliwal9912\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csprojAssemblyReference.cache
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ApplicationInsights.config
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.dll.config
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.pdb
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Antlr3.Runtime.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.SqlServer.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Agent.Intercept.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.DependencyCollector.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Web.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.WindowsServer.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.ApplicationInsights.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Core.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Cookies.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Facebook.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Google.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.OAuth.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Twitter.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Web.Infrastructure.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Newtonsoft.Json.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Owin.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\SendGrid.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Helpers.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Mvc.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Optimization.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Razor.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Deployment.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Razor.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\WebGrease.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.SqlServer.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Newtonsoft.Json.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\SendGrid.pdb
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\SendGrid.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Helpers.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Mvc.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Optimization.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Razor.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Deployment.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Razor.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Antlr3.Runtime.pdb
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Core.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Facebook.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Cookies.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.OAuth.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Google.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Twitter.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.ApplicationInsights.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.DependencyCollector.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.WindowsServer.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Web.xml
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csprojResolveAssemblyReference.cache
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate.resources
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate1.resources
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate2.resources
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate3.resources
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate4.resources
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate5.resources
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate6.resources
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csproj.GenerateResource.Cache
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csproj.CoreCompileInputs.cache
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.dll
+F:\sem4\capstone\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.pdb
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csprojAssemblyReference.cache
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate.resources
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate1.resources
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate2.resources
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate3.resources
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate4.resources
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate5.resources
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.Migrations.InitialCreate6.resources
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csproj.GenerateResource.cache
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csproj.CoreCompileInputs.cache
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.pdb
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ApplicationInsights.config
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.dll.config
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\ConestogaConnect.pdb
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Antlr3.Runtime.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.SqlServer.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Web.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.ApplicationInsights.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Newtonsoft.Json.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Owin.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\SendGrid.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Helpers.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Mvc.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Optimization.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Razor.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Razor.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\WebGrease.dll
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\EntityFramework.SqlServer.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Newtonsoft.Json.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\SendGrid.pdb
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\SendGrid.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Helpers.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Mvc.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Optimization.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.Razor.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\System.Web.WebPages.Razor.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Antlr3.Runtime.pdb
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.ApplicationInsights.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\bin\Microsoft.AI.Web.xml
+C:\Users\hsingh8460\Desktop\New folder\ConestogaConnect\ConestogaConnect\ConestogaConnect\ConestogaConnect\obj\Debug\ConestogaConnect.csproj.CopyComplete

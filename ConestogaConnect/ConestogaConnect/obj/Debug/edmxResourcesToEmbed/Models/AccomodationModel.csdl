@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model2" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Accomodation">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Number_of_Rooms" Type="Int32" />
+    <Property Name="Rent" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Facilities" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PetFriendly" Type="Boolean" />
+    <Property Name="Parking" Type="Boolean" />
+    <Property Name="Floor" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Furnished" Type="Boolean" />
+    <Property Name="Posted_Date" Type="DateTime" Precision="7" />
+    <Property Name="Last_Updated" Type="DateTime" Precision="7" />
+    <Property Name="Image_Id" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="AccomodationEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Accomodations" EntityType="Self.Accomodation" />
+  </EntityContainer>
+</Schema>

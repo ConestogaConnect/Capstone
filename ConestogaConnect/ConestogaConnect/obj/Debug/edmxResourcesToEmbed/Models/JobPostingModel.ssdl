@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="JobPosting">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="varchar" MaxLength="128" Nullable="false" />
+    <Property Name="JobPostingNumber" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="JobTitle" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="JobDescription" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="JobType" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Salary" Type="float" />
+    <Property Name="Experience" Type="nvarchar(max)" />
+    <Property Name="Location" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="JobSubTitle" Type="nvarchar(max)" />
+    <Property Name="Posted_Date" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="Last_Updated" Type="datetime2" Precision="7" />
+  </EntityType>
+  <EntityContainer Name="Model1StoreContainer">
+    <EntitySet Name="JobPosting" EntityType="Self.JobPosting" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

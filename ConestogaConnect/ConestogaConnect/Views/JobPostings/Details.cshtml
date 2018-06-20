@@ -1,0 +1,112 @@
+﻿@model ConestogaConnect.Models.JobPosting
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>JobPosting</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.UserId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.JobPostingNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.JobPostingNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.JobTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.JobTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.JobDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.JobDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.JobType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.JobType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Salary)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Salary)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Experience)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Experience)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Location)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Location)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.JobSubTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.JobSubTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Posted_Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Posted_Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Last_Updated)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Last_Updated)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @if (this.User.IsInRole("Admin"))
+    {
+        @Html.ActionLink("Back to List", "DisplayJobPosting")
+    }
+    @if (this.User.IsInRole("Student"))
+    {
+        @Html.ActionLink("Back to List", "Index")
+    }
+</p>

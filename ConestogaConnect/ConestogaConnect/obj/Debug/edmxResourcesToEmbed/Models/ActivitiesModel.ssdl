@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model3.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Activities">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="varchar" MaxLength="128" Nullable="false" />
+    <Property Name="ActivityName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="128" Nullable="false" />
+    <Property Name="ActivityType" Type="varchar" MaxLength="128" Nullable="false" />
+    <Property Name="Added_On" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="Updated_On" Type="datetime2" Precision="7" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="Model3StoreContainer">
+    <EntitySet Name="Activities" EntityType="Self.Activities" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

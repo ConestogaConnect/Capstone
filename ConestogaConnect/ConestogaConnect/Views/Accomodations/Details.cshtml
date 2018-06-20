@@ -1,0 +1,107 @@
+﻿@model ConestogaConnect.Models.Accomodation
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Accomodation</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.UserId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Number_of_Rooms)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Number_of_Rooms)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rent)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Facilities)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Facilities)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PetFriendly)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PetFriendly)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Parking)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Parking)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Floor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Floor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Furnished)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Furnished)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Posted_Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Posted_Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Last_Updated)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Last_Updated)
+        </dd>
+
+        
+
+    </dl>
+</div>
+<p>
+
+    @if (this.User.IsInRole("Admin"))
+    {
+        @Html.ActionLink("Back to List", "DisplayAccomodations")
+    }
+    @if (this.User.IsInRole("Student"))
+    {
+        @Html.ActionLink("Back to List", "Index")
+    }
+</p>
