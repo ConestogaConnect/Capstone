@@ -1,0 +1,210 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: #089DE3;
+}
+
+.navbar {
+    border: 0;
+    background: none;
+    height: auto;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.navbar-default .navbar-nav > li {
+    margin-left: 30px;
+}
+
+.navbar-default .navbar-nav {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+    .navbar-default .navbar-nav > li > a {
+        color: #fff;
+        font-size: 16px;
+        padding: 0;
+        border-radius: 0 !important;
+        border-radius: 5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-bottom: 2px solid transparent;
+    }
+
+    .navbar-default .navbar-nav > .active > a {
+        background: none;
+        color: #fff;
+        border-color: #fff;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover {
+        color: #fff;
+        border-color: #fff;
+    }
+
+.navbar-brand {
+    color: #fff !important;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.searchRight {
+    position: relative;
+}
+
+.inputtext {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    height: 40px;
+    width: 240px;
+    padding: 0 30px 0 15px;
+    font-size: 16px;
+}
+
+.srchBtn {
+    position: absolute;
+    right: 4px;
+    top: 10px;
+    background: none;
+    border: 0;
+}
+
+.navbar-default .navbar-nav.redUceTopSPace {
+    padding-top: 5px;
+}
+
+.slideOuter {
+    position: relative;
+}
+
+    .slideOuter:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: "";
+        height: 100%;
+        width: 100%;
+        background: #000;
+        opacity: 0.5;
+    }
+
+.carousel-caption {
+    right: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 600px;
+    margin: auto;
+}
+
+    .carousel-caption h1 {
+        font-size: 50px;
+        text-transform: uppercase;
+        color: #089DE3;
+        font-weight: 700;
+        text-shadow: none;
+    }
+
+.carousel-caption {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+.blueBtn {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+    background: #089DE3;
+    border: 0;
+}
+
+.left.carousel-control {
+    background: url(../images/arrow-left.png)center center no-repeat;
+    background-size: 30px auto;
+    width: 100px;
+}
+
+
+.right.carousel-control {
+    background: url(../images/arrow-right.png) center center no-repeat;
+    background-size: 30px auto;
+    width: 100px;
+}
+
+.sectionHeader {
+    text-align: center;
+}
+
+    .sectionHeader h2 {
+        font-size: 36px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #089DE3;
+        margin-bottom: 15px;
+    }
+
+.serviceImage img {
+    width: 100%;
+}
+
+.servicesDetail {
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+}
+
+    .servicesDetail h4 {
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+
+.seviceBox {
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(224,224,224,1);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(224,224,224,1);
+    box-shadow: 0px 0px 10px 2px rgba(224,224,224,1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.subheader {
+    font-size: 18px;
+    max-width: 650px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+
+.services {
+    padding: 50px 0;
+    background: #ebebeb;
+}
+
+.meetingImg img {
+    width: 100%;
+}
+
+.meetContent h4 {
+    font-size: 24px;
+    color: #089DE3;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.meetContent p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #4a4a4a;
+}
+
+.meetings {
+    padding: 70px 0;
+}
