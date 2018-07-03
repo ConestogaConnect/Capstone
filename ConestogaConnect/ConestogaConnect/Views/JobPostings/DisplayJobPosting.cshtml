@@ -9,6 +9,87 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
+<div class="body-content">
+
+
+    <fieldset>
+        <legend>Search</legend>
+        @using (Html.BeginForm("DisplayJobPosting", "JobPostings", FormMethod.Get))
+        {
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Posting Number</div>
+                    <div class="col-sm-6">@Html.TextBox("pnum") </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Title</div>
+                    <div class="col-sm-6">@Html.TextBox("jtitle")</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Description</div>
+                    <div class="col-sm-6">@Html.TextBox("desc")</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Type</div>
+                    <div class="col-sm-6">@Html.TextBox("type")</div>
+                </div>
+            </div>
+            <br />
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Salary</div>
+                    <div class="col-sm-6">@Html.TextBox("sal") </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Experience</div>
+                    <div class="col-sm-6">@Html.TextBox("exp")</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Location</div>
+                    <div class="col-sm-6">@Html.TextBox("loc")</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">SubTitle</div>
+                    <div class="col-sm-6">@Html.TextBox("stitle")</div>
+                </div>
+            </div>
+            <br />
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Posted Date From</div>
+                    <div class="col-sm-6">
+                        @Html.TextBox("pdfrom", null, new { @readonly = "readonly" })
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Posted Date To</div>
+                    <div class="col-sm-6">@Html.TextBox("pdto", null, new { @readonly = "readonly" })</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Last Updated From</div>
+                    <div class="col-sm-6">@Html.TextBox("ufrom", null, new { @readonly = "readonly" })</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Last Updated To</div>
+                    <div class="col-sm-6">@Html.TextBox("uto", null, new { @readonly = "readonly" })</div>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right"></div>
+                    <div class="col-sm-6"><input type="submit" value="Search" class="btn btn-default" /></div>
+
+                </div>
+            </div>
+        }
+    </fieldset>
+
+</div>
+<hr />
 <table class="table">
     <tr>
         
@@ -45,44 +126,45 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        
-        <td>
-            @Html.DisplayFor(modelItem => item.JobPostingNumber)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.JobTitle)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.JobDescription)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.JobType)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Salary)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Experience)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Location)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.JobSubTitle)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Posted_Date)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Last_Updated)
-        </td>
-        <td>
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.JobPostingNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JobTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JobDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JobType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Experience)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Location)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JobSubTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Posted_Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Last_Updated)
+            </td>
+            <td>
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
 
 </table>

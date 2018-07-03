@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Conestoga Connect</title>
+    <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     @Scripts.Render("~/bundles/jquery")
@@ -31,15 +31,15 @@
                         <li>@Html.ActionLink("JobPostings", "Index", "JobPostings")</li>
                         <li>@Html.ActionLink("Accomodations", "Index", "Accomodations")</li>
                         <li>@Html.ActionLink("Activities", "Index", "Activities")</li>
-                        <li>@Html.ActionLink("Discussion", "Index", "AddDiscussions")</li>
+                        <li>@Html.ActionLink("Discussion", "GetPosts", "Discussion")</li>
 						<li>@Html.ActionLink("Meetings", "Index", "Meetings")</li>
                     }
                     @if (this.User.IsInRole("Admin"))
                     {
-                    <li>@Html.ActionLink("Dashboard", "Dashboard", "Home")</li>
-                    <li>@Html.ActionLink("JobPostings", "DisplayJobPosting", "JobPostings")</li>
-                    <li>@Html.ActionLink("Accomodations", "DisplayAccomodations", "Accomodations")</li>
-                    <li>@Html.ActionLink("Activities", "DisplayActivity", "Activities")</li>
+                        <li>@Html.ActionLink("Dashboard", "Dashboard", "Home")</li>
+                        <li>@Html.ActionLink("JobPostings", "DisplayJobPosting", "JobPostings")</li>
+                        <li>@Html.ActionLink("Accomodations", "DisplayAccomodations", "Accomodations")</li>
+                        <li>@Html.ActionLink("Accomodations", "DisplayAccomodations", "Accomodations")</li>
 
                     }
                 </ul>

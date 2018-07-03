@@ -1,14 +1,85 @@
 ﻿@model IEnumerable<ConestogaConnect.Models.Accomodation>
 @using Microsoft.AspNet.Identity;
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Accomodations";
 }
 
-<h2>Index</h2>
+<h2>Accomodations</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
+<div class="body-content">
+
+
+    <fieldset>
+        <legend>Search</legend>
+        @using (Html.BeginForm("Index", "Accomodations", FormMethod.Get))
+        {
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Number of rooms</div>
+                    <div class="col-sm-6">@Html.TextBox("rooms") </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Rent</div>
+                    <div class="col-sm-6">@Html.TextBox("rent")</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Facilities</div>
+                    <div class="col-sm-6">@Html.TextBox("facilities")</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Floors </div>
+                    <div class="col-sm-6">@Html.TextBox("floors")</div>
+                </div>
+            </div>
+            <br />
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Posted Date From</div>
+                    <div class="col-sm-6">
+                        @Html.TextBox("pdfrom", null, new { @readonly = "readonly" })
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Posted Date To</div>
+                    <div class="col-sm-6">@Html.TextBox("pdto", null, new { @readonly = "readonly" })</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Last Updated From</div>
+                    <div class="col-sm-6">@Html.TextBox("ufrom", null, new { @readonly = "readonly" })</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Last Updated To</div>
+                    <div class="col-sm-6">@Html.TextBox("uto", null, new { @readonly = "readonly" })</div>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">@Html.CheckBox("petfriendly") Pet Friendly</div>
+                    <div class="col-sm-6 text-right">@Html.CheckBox("parking") Parking</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">@Html.CheckBox("furnished") Furnished</div>
+
+                </div>
+                <div class="col-sm-3">
+
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right"></div>
+                    <div class="col-sm-6"><input type="submit" value="Search" class="btn btn-default" /></div>
+
+                </div>
+            </div>
+        }
+    </fieldset>
+
+</div>
+ <hr />
 <table class="table">
     <tr>
         
@@ -114,3 +185,56 @@
 }
 
 </table>
+<link href="~/Content/datepicker/jquery-ui.min.css" rel="stylesheet" />
+<link href="~/Content/datepicker/jquery-ui.structure.css" rel="stylesheet" />
+<link href="~/Content/datepicker/jquery-ui.theme.css" rel="stylesheet" />
+<script src="~/Content/datepicker/jquery-ui.js"></script>
+
+<script type="text/javascript">
+    var dateFormat = "dd/mm/yy";
+    $(document).ready(function () {
+        var pdfrom = $("#pdfrom").datepicker({
+            defaultDate: "+1w",
+            changeMonth: true,
+            dateFormat: dateFormat,
+            numberOfMonths: 1
+        }).on("change", function () {
+            pdto.datepicker("option", "minDate", getDate(this));
+        }),
+            pdto = $("#pdto").datepicker({
+                defaultDate: "+1w",
+                changeMonth: true,
+                dateFormat: dateFormat,
+                numberOfMonths: 1
+            }).on("change", function () {
+                pdfrom.datepicker("option", "maxDate", getDate(this));
+            });
+
+        var ufrom = $("#ufrom").datepicker({
+            defaultDate: "+1w",
+            changeMonth: true,
+            dateFormat: dateFormat,
+            numberOfMonths: 1
+        }).on("change", function () {
+            uto.datepicker("option", "minDate", getDate(this));
+        }),
+            uto = $("#uto").datepicker({
+                defaultDate: "+1w",
+                changeMonth: true,
+                dateFormat: dateFormat,
+                numberOfMonths: 1
+            }).on("change", function () {
+                ufrom.datepicker("option", "maxDate", getDate(this));
+            });
+    });
+
+    function getDate(element) {
+        var date;
+        try {
+            date = $.datepicker.parseDate(dateFormat, element.value);
+        } catch (error) {
+            date = null;
+        }
+        return date;
+    }
+</script>

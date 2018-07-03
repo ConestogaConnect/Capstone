@@ -1,0 +1,61 @@
+﻿@model IEnumerable<ConestogaConnect.Models.Discussion>
+@using Microsoft.AspNet.Identity;
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Topic)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Posted_Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Last_Updated)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AspNetUser.Email)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Topic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Posted_Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Last_Updated)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AspNetUser.Email)
+            </td>
+            <td>
+                @if (User.Identity.GetUserId() == item.UserId)
+                {
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) 
+                }
+                |
+                @Html.ActionLink("Start", "GetPosts", "Discussion", new { id = item.Id }, null)
+                @if (User.Identity.GetUserId() == item.UserId)
+                {
+                    @Html.Raw(" | ")
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                }
+            </td>
+        </tr>
+    }
+
+</table>

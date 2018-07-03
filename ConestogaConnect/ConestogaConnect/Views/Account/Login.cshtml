@@ -1,12 +1,12 @@
 ﻿@using ConestogaConnect.Models
 @model LoginViewModel
 @{
-    ViewBag.Title = "Log in newwfdfdf ss  Page";
+    ViewBag.Title = "Log In";
 }
 
 <h2>@ViewBag.Title.</h2>
 <div class="row">
-    <div class="col-md-8">
+    <div class="col-sm-12 col-md-9 col-md-offset-3">
         <section id="loginForm">
             @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
             {
@@ -41,21 +41,17 @@
                         <input type="submit" value="Log in" class="btn btn-default" />
                     </div>
                 </div>
-                <p>
+                <p class="col-sm-12 col-md-10 col-md-offset-2">
                     @Html.ActionLink("Register as a new user", "Register")
                 </p>
                 // Enable this once you have account confirmation enabled for password reset functionality
-                    <p>
+                    <p class="col-sm-12 col-md-10 col-md-offset-2">
                         @Html.ActionLink("Forgot your password?", "ForgotPassword")
                     </p>
             }
         </section>
     </div>
-    <div class="col-md-4">
-        <section id="socialLoginForm">
-            @Html.Partial("_ExternalLoginsListPartial", new ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
-        </section>
-    </div>
+    
 </div>
 
 @section Scripts {

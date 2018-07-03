@@ -1,14 +1,85 @@
 ﻿@model IEnumerable<ConestogaConnect.Models.Accomodation>
 
 @{
-    ViewBag.Title = "DisplayAccomodations";
+    ViewBag.Title = "Display Accomodations";
 }
 
-<h2>DisplayAccomodations</h2>
+<h2>Display Accomodations</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
+<div class="body-content">
+
+
+    <fieldset>
+        <legend>Search</legend>
+        @using (Html.BeginForm("DisplayAccomodations", "Accomodations", FormMethod.Get))
+        {
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Number of rooms</div>
+                    <div class="col-sm-6">@Html.TextBox("rooms") </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Rent</div>
+                    <div class="col-sm-6">@Html.TextBox("rent")</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Facilities</div>
+                    <div class="col-sm-6">@Html.TextBox("facilities")</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Floors </div>
+                    <div class="col-sm-6">@Html.TextBox("floors")</div>
+                </div>
+            </div>
+            <br />
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Posted Date From</div>
+                    <div class="col-sm-6">
+                        @Html.TextBox("pdfrom", null, new { @readonly = "readonly" })
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Posted Date To</div>
+                    <div class="col-sm-6">@Html.TextBox("pdto", null, new { @readonly = "readonly" })</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Last Updated From</div>
+                    <div class="col-sm-6">@Html.TextBox("ufrom", null, new { @readonly = "readonly" })</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Last Updated To</div>
+                    <div class="col-sm-6">@Html.TextBox("uto", null, new { @readonly = "readonly" })</div>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">@Html.CheckBox("petfriendly") Pet Friendly</div>
+                    <div class="col-sm-6 text-right">@Html.CheckBox("parking") Parking</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">@Html.CheckBox("furnished") Furnished</div>
+
+                </div>
+                <div class="col-sm-3">
+
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right"></div>
+                    <div class="col-sm-6"><input type="submit" value="Search" class="btn btn-default" /></div>
+
+                </div>
+            </div>
+        }
+    </fieldset>
+
+</div>
+<hr />
 <table class="table">
     <tr>
         
@@ -43,63 +114,71 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        
-        <td>
-            @Html.DisplayFor(modelItem => item.Number_of_Rooms)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Rent)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Facilities)
-        </td>
-        <td>
-            @if (item.PetFriendly == true)
-            {
-                <p>Yes</p>
-            }
-            @if (item.PetFriendly == false)
-            {
-                <p>No</p>
-            }
-        </td>
-        <td>
-            @if (item.Parking == true)
-            {
-                <p>Yes</p>
-            }
-            @if (item.Parking == false)
-            {
-                <p>No</p>
-            }
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Floor)
-        </td>
-        <td>
-            @if (item.Furnished == true)
-            {
-                <p>Yes</p>
-            }
-            @if (item.Furnished == false)
-            {
-                <p>No</p>
-            }
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Posted_Date)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Last_Updated)
-        </td>
-        
-        <td>
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Number_of_Rooms)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Facilities)
+            </td>
+            <td>
+                @if (item.PetFriendly == true)
+                {
+                    <p>Yes</p>
+                }
+                @if (item.PetFriendly == false)
+                {
+                    <p>No</p>
+                }
+            </td>
+            <td>
+                @if (item.Parking == true)
+                {
+                    <p>Yes</p>
+                }
+                @if (item.Parking == false)
+                {
+                    <p>No</p>
+                }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Floor)
+            </td>
+            <td>
+                @if (item.Furnished == true)
+                {
+                    <p>Yes</p>
+                }
+                @if (item.Furnished == false)
+                {
+                    <p>No</p>
+                }
+            </td>
+
+
+
+
+
+
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Posted_Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Last_Updated)
+            </td>
+
+            <td>
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
 
 </table>

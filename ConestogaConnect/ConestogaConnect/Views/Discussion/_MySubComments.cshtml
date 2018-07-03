@@ -1,0 +1,62 @@
+﻿@model IQueryable<ConestogaConnect.ViewModels.SubCommentsVM>
+@using ConestogaConnect.ViewModels
+
+<div class="container">
+    @if (Model != null)
+    {
+
+        foreach (SubCommentsVM subComment in Model)
+        {
+            <ul class="comments">
+                <li class="clearfix">
+                   
+                    <div class="post-comments">
+                        <div class="comneImg replyimg pull-left">
+                            <img src="~/Content/Images/user.png" alt="" width="40">
+                        </div>
+
+                        <div class="commnetDetail col-md-pull-2">
+                            <p class="meta"><a href="#">@subComment.User.UserName</a> @string.Format("{0:MMM dd, yyyy }", @subComment.CommentDate) <span class="glyphicon glyphicon-trash deleteSubComment pull-right" data-id="@subComment.Id"></span> </p>
+                            <p>
+                                @subComment.CommentMessage
+                            </p>
+
+                        </div>
+                        </div>
+</li>
+            </ul>
+
+          
+        }
+    }
+
+</div>
+    <script type="text/javascript">
+
+
+        $(document).ready(function () {
+      
+    $('.deleteSubComment').on('click', function () {
+
+        var SubComID = $(this).attr('data-id');
+        //console.log(SubComID);
+        
+               $.ajax({
+
+                type: 'POST',
+                url: '@Url.Action("DeleteSubComment", "Discussion")',
+                data: { id: SubComID },
+                success: function (response) {
+                    getSubComments();
+                },
+                error: function (response) {
+                    alert('Something Wrong');
+                }
+            });
+
+    });
+
+            ///jQuery("time.timeago").timeago();
+        });
+
+    </script>

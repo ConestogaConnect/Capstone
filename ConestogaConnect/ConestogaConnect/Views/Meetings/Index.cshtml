@@ -1,0 +1,276 @@
+﻿@model IEnumerable<ConestogaConnect.Models.MeetingViewModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<div class="body-content">
+
+    <fieldset>
+        <legend>Search</legend>
+        @using (Html.BeginForm("Index", "Meetings", FormMethod.Get))
+        {
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Title</div>
+                    <div class="col-sm-6">@Html.TextBox("mtitle") </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Description</div>
+                    <div class="col-sm-6">@Html.TextBox("desc")</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Subject</div>
+                    <div class="col-sm-6">@Html.TextBox("sub")</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Location </div>
+                    <div class="col-sm-6">@Html.TextBox("loc")</div>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Program</div>
+                    <div class="col-sm-6">@Html.DropDownList("program", "Select Program") </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Semester</div>
+                    <div class="col-sm-6">@Html.TextBox("sem")</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Added By</div>
+                    <div class="col-sm-6">@Html.TextBox("add")</div>
+                </div>
+
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Meeting Date From</div>
+                    <div class="col-sm-6">@Html.TextBox("mfrom", null, new { @readonly = "readonly" })</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Meeting Date To</div>
+                    <div class="col-sm-6">@Html.TextBox("mto", null, new { @readonly = "readonly" })</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Added From</div>
+                    <div class="col-sm-6">@Html.TextBox("afrom", null, new { @readonly = "readonly" })</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right">Added To</div>
+                    <div class="col-sm-6">@Html.TextBox("ato", null, new { @readonly = "readonly" })</div>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+
+                <div class="col-sm-3">
+                    <div class="col-sm-6 text-right"></div>
+                    <div class="col-sm-6"><input type="submit" value="Search" class="btn btn-default" /></div>
+
+                </div>
+            </div>
+        }
+    </fieldset>
+
+    <hr>
+   
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-2">
+                <div class="postLeftBar">
+                    <h4 class="name"><a href="#">Sandeep Kaur</a></h4>
+                    <ul>
+                        <li>
+                            <a href="#">Accomodation</a>
+                        </li>
+                        <li>
+                            <a href="#">Types</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Find Books</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="col-sm-7">
+
+                <div class="postInner">
+                    @foreach (var item in Model)
+                    {
+                    <div class="postBox">
+                        <div class="postHeader clearfix">
+                            <div class="postWriter pull-left">
+                                <img src="~/Content/Images/user.png" alt="" width="40">
+                                <span class="postName">@Html.DisplayFor(modelItem => item.AddedBy)</span>
+                            </div>
+                            <div class="pull-right datePost">
+                                <span>
+                                    @string.Format("{0:MMM dd, yyyy HH:mm tt}", item.AddedOn)
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="postDetail">
+                            <p>@Html.DisplayFor(modelItem => item.MeetingTitle) </p>
+                            <hr>
+                            <p>
+                                @if (item.Subject != null)
+                                {
+                                    <strong>Meeting Subject: </strong>@Html.DisplayFor(modelItem => item.Subject)
+                                }
+                            </p>
+                            <p>
+                                <strong>Meeting Date Time: </strong>@string.Format("{0:MMM dd, yyyy HH:mm tt}", item.MeetingDateTime)
+                            </p>
+                            <p>
+                                @if (item.Location != null)
+                                {
+                                    <strong>@Html.Raw("Location: ")</strong>
+                                    @Html.DisplayFor(modelItem => item.Location)
+                                }
+                                </p>
+                            <p>
+                                @if (item.ProgramName != "")
+                                {
+                                    @Html.Raw("This meeting is for ")
+                                    <strong>@Html.DisplayFor(modelItem => item.ProgramName) </strong>
+                                }
+                            </p>
+                            <p>
+                                @if (item.Semester != null)
+                                {
+                                    @Html.Raw("This meeting is for Semester : ")
+                                    <strong>@Html.DisplayFor(modelItem => item.Semester) </strong>
+                                }
+                            </p>
+                            <p> @Html.DisplayFor(modelItem => item.Description)</p>
+                            <p>
+                                @if (User.Identity.Name != item.AddedBy)
+                                {
+                                    @Html.ActionLink(item.IsAccepted ? "Reject" : "Accept", "Accept", new { id = item.Id })
+                                    @Html.Raw(" | ")
+                                }
+                                @if (User.Identity.Name == item.AddedBy)
+                                {
+                                    @Html.ActionLink("Edit", "Edit", new { id = item.Id });
+                                    @Html.Raw(" | ");
+                                }
+
+                                @Html.ActionLink("Details", "Details", new { id = item.Id })
+                                @if (User.Identity.Name == item.AddedBy)
+                                {
+                                    @Html.Raw(" | ");
+                                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                                }
+                            </p>
+                        </div>
+
+                    </div>
+                    
+                    }
+                </div>
+               
+            </div>
+
+
+            <div class="col-sm-3">
+                <div class="newsFeed">
+                    <h4>News</h4>
+                    <div class="newsBox">
+                        <h5>Nullam convallis dolor ut laoreet viverra</h5>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+                    </div>
+
+                    <div class="newsBox">
+                        <h5>Nullam convallis dolor ut laoreet viverra</h5>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+                    </div>
+
+                    <div class="newsBox">
+                        <h5>Nullam convallis dolor ut laoreet viverra</h5>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+                    </div>
+
+                    <div class="newsBox">
+                        <h5>Nullam convallis dolor ut laoreet viverra</h5>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+                    </div>
+
+                    <div class="newsBox">
+                        <h5>Nullam convallis dolor ut laoreet viverra</h5>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <link href="~/Content/datepicker/jquery-ui.min.css" rel="stylesheet" />
+    <link href="~/Content/datepicker/jquery-ui.structure.css" rel="stylesheet" />
+    <link href="~/Content/datepicker/jquery-ui.theme.css" rel="stylesheet" />
+    <script src="~/Content/datepicker/jquery-ui.js"></script>
+
+    <script type="text/javascript">
+        var dateFormat = "dd/mm/yy";
+        $(document).ready(function () {
+            var pdfrom = $("#mfrom").datepicker({
+                defaultDate: "+1w",
+                changeMonth: true,
+                dateFormat: dateFormat,
+                numberOfMonths: 1
+            }).on("change", function () {
+                pdto.datepicker("option", "minDate", getDate(this));
+            }),
+                pdto = $("#mto").datepicker({
+                    defaultDate: "+1w",
+                    changeMonth: true,
+                    dateFormat: dateFormat,
+                    numberOfMonths: 1
+                }).on("change", function () {
+                    pdfrom.datepicker("option", "maxDate", getDate(this));
+                });
+
+            var ufrom = $("#afrom").datepicker({
+                defaultDate: "+1w",
+                changeMonth: true,
+                dateFormat: dateFormat,
+                numberOfMonths: 1
+            }).on("change", function () {
+                uto.datepicker("option", "minDate", getDate(this));
+            }),
+                uto = $("#ato").datepicker({
+                    defaultDate: "+1w",
+                    changeMonth: true,
+                    dateFormat: dateFormat,
+                    numberOfMonths: 1
+                }).on("change", function () {
+                    ufrom.datepicker("option", "maxDate", getDate(this));
+                });
+        });
+
+        function getDate(element) {
+            var date;
+            try {
+                date = $.datepicker.parseDate(dateFormat, element.value);
+            } catch (error) {
+                date = null;
+            }
+            return date;
+        }
+    </script>
