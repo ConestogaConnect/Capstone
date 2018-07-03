@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
+using System.Globalization;
 using System.Linq;
 using System.Net;
 using System.Web;
@@ -16,16 +17,144 @@ namespace ConestogaConnect.Controllers
         private JobPostingEntities db = new JobPostingEntities();
 
         // GET: JobPostings- Students
-        public ActionResult Index()
+        public ActionResult Index(string pnum, string jtitle, string desc, string type, double? sal, string exp, string loc, string stitle, string pdfrom, string pdto, string ufrom, string uto)
         {
-            return View(db.JobPostings.ToList());
+            var obj = db.JobPostings.ToList();
+            if (!string.IsNullOrEmpty(pnum))
+            {
+                obj = obj.Where(x => x.JobPostingNumber.ToLower().Contains(pnum.ToLower())).ToList();
+            }
+            if (!string.IsNullOrEmpty(jtitle))
+            {
+                obj = obj.Where(x => x.JobTitle.ToLower().Contains(jtitle.ToLower())).ToList();
+            }
+            if (!string.IsNullOrEmpty(desc))
+            {
+                obj = obj.Where(x => x.JobDescription.ToLower().Contains(desc.ToLower())).ToList();
+            }
+            if (!string.IsNullOrEmpty(type))
+            {
+                obj = obj.Where(x => x.JobType.ToLower().Contains(type.ToLower())).ToList();
+            }
+            if (sal != null)
+            {
+                obj = obj.Where(x => x.Salary == sal).ToList();
+            }
+            if (!string.IsNullOrEmpty(exp))
+            {
+                obj = obj.Where(x => x.Experience.ToLower().Contains(exp.ToLower())).ToList();
+            }
+            if (!string.IsNullOrEmpty(loc))
+            {
+                obj = obj.Where(x => x.Location.ToLower().Contains(loc.ToLower())).ToList();
+            }
+            if (!string.IsNullOrEmpty(stitle))
+            {
+                obj = obj.Where(x => x.JobSubTitle.ToLower().Contains(stitle.ToLower())).ToList();
+            }
+            if (!string.IsNullOrEmpty(pdfrom))
+            {
+                DateTime date = DateTime.ParseExact(pdfrom, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                obj = obj.Where(x => x.Posted_Date >= date).ToList();
+            }
+            if (!string.IsNullOrEmpty(pdto))
+            {
+                DateTime date = DateTime.ParseExact(pdto, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                obj = obj.Where(x => x.Posted_Date <= date).ToList();
+            }
+            if (!string.IsNullOrEmpty(ufrom))
+            {
+                DateTime date = DateTime.ParseExact(ufrom, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                obj = obj.Where(x => x.Last_Updated >= date).ToList();
+            }
+            if (!string.IsNullOrEmpty(uto))
+            {
+                DateTime date = DateTime.ParseExact(uto, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                obj = obj.Where(x => x.Last_Updated <= date).ToList();
+            }
+            ViewBag.pnum = pnum;
+            ViewBag.jtitle = jtitle;
+            ViewBag.desc = desc;
+            ViewBag.type = type;
+            ViewBag.exp = exp;
+            ViewBag.stitle = stitle;
+            ViewBag.pdfrom = pdfrom;
+            ViewBag.pdto = pdto;
+            ViewBag.ufrom = ufrom;
+            ViewBag.uto = uto;
+           
+            return View(obj);
         }
 
         [Authorize(Roles = "Admin")]
         //Display Job Postings-Admin Panel
-        public ActionResult DisplayJobPosting()
+        public ActionResult DisplayJobPosting(string pnum, string jtitle, string desc, string type, double? sal, string exp, string loc, string stitle, string pdfrom, string pdto, string ufrom, string uto)
         {
-            return View(db.JobPostings.ToList());
+            var obj = db.JobPostings.ToList();
+            if (!string.IsNullOrEmpty(pnum))
+            {
+                obj = obj.Where(x => x.JobPostingNumber.ToLower().Contains(pnum.ToLower())).ToList();
+            }
+            if (!string.IsNullOrEmpty(jtitle))
+            {
+                obj = obj.Where(x => x.JobTitle.ToLower().Contains(jtitle.ToLower())).ToList();
+            }
+            if (!string.IsNullOrEmpty(desc))
+            {
+                obj = obj.Where(x => x.JobDescription.ToLower().Contains(desc.ToLower())).ToList();
+            }
+            if (!string.IsNullOrEmpty(type))
+            {
+                obj = obj.Where(x => x.JobType.ToLower().Contains(type.ToLower())).ToList();
+            }
+            if (sal != null)
+            {
+                obj = obj.Where(x => x.Salary == sal).ToList();
+            }
+            if (!string.IsNullOrEmpty(exp))
+            {
+                obj = obj.Where(x => x.Experience.ToLower().Contains(exp.ToLower())).ToList();
+            }
+            if (!string.IsNullOrEmpty(loc))
+            {
+                obj = obj.Where(x => x.Location.ToLower().Contains(loc.ToLower())).ToList();
+            }
+            if (!string.IsNullOrEmpty(stitle))
+            {
+                obj = obj.Where(x => x.JobSubTitle.ToLower().Contains(stitle.ToLower())).ToList();
+            }
+            if (!string.IsNullOrEmpty(pdfrom))
+            {
+                DateTime date = DateTime.ParseExact(pdfrom, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                obj = obj.Where(x => x.Posted_Date >= date).ToList();
+            }
+            if (!string.IsNullOrEmpty(pdto))
+            {
+                DateTime date = DateTime.ParseExact(pdto, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                obj = obj.Where(x => x.Posted_Date <= date).ToList();
+            }
+            if (!string.IsNullOrEmpty(ufrom))
+            {
+                DateTime date = DateTime.ParseExact(ufrom, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                obj = obj.Where(x => x.Last_Updated >= date).ToList();
+            }
+            if (!string.IsNullOrEmpty(uto))
+            {
+                DateTime date = DateTime.ParseExact(uto, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                obj = obj.Where(x => x.Last_Updated <= date).ToList();
+            }
+            ViewBag.pnum = pnum;
+            ViewBag.jtitle = jtitle;
+            ViewBag.desc = desc;
+            ViewBag.type = type;
+            ViewBag.exp = exp;
+            ViewBag.stitle = stitle;
+            ViewBag.pdfrom = pdfrom;
+            ViewBag.pdto = pdto;
+            ViewBag.ufrom = ufrom;
+            ViewBag.uto = uto;
+
+            return View(obj);
         }
 
         // GET: JobPostings/Details/5

@@ -1,0 +1,143 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.Entity;
+using System.IO;
+using System.Linq;
+using System.Net;
+using System.Web;
+using System.Web.Mvc;
+using ConestogaConnect.Models;
+using Microsoft.AspNet.Identity;
+
+namespace ConestogaConnect.Controllers
+{
+    public class AccomodationsController : Controller
+    {
+        private AccomodationEntities db = new AccomodationEntities();
+
+        // GET: Accomodations
+        public ActionResult Index()
+        {
+            return View(db.Accomodations.ToList());
+        }
+
+        //Display Accomodations-Admin
+        [Authorize(Roles = "Admin")]
+        public ActionResult DisplayAccomodations()
+        {
+            return View(db.Accomodations.ToList());
+        }
+
+        // GET: Accomodations/Details/5
+        public ActionResult Details(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Accomodation accomodation = db.Accomodations.Find(id);
+            if (accomodation == null)
+            {
+                return HttpNotFound();
+            }
+            return View(accomodation);
+        }
+
+        // GET: Accomodations/Create
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        // POST: Accomodations/Create
+        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
+        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(HttpPostedFileBase image,[Bind(Include = "UserId,Number_of_Rooms,Rent,Facilities,PetFriendly,Parking,Floor,Furnished,Posted_Date,Image_Id,Image")] Accomodation accomodation)
+        {
+            if (ModelState.IsValid)
+            {
+                accomodation.UserId = User.Identity.GetUserId();
+                accomodation.Posted_Date = DateTime.Now;
+                db.Accomodations.Add(accomodation);
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+
+            return View(accomodation);
+        }
+
+        // GET: Accomodations/Edit/5
+        public ActionResult Edit(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Accomodation accomodation = db.Accomodations.Find(id);
+            if (accomodation == null)
+            {
+                return HttpNotFound();
+            }
+            return View(accomodation);
+        }
+
+        // POST: Accomodations/Edit/5
+        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
+        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit([Bind(Include = "Id,UserId,Number_of_Rooms,Rent,Facilities,PetFriendly,Parking,Floor,Furnished,Posted_Date,Last_Updated,Image_Id")] Accomodation accomodation)
+        {
+            if (ModelState.IsValid)
+            {
+                db.Entry(accomodation).State = EntityState.Modified;
+                accomodation.Last_Updated = System.DateTime.Now;
+                accomodation.UserId = User.Identity.GetUserId();
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(accomodation);
+        }
+
+        // GET: Accomodations/Delete/5
+        public ActionResult Delete(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Accomodation accomodation = db.Accomodations.Find(id);
+            if (accomodation == null)
+            {
+                return HttpNotFound();
+            }
+            return View(accomodation);
+        }
+
+        // POST: Accomodations/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteConfirmed(int id)
+        {
+            Accomodation accomodation = db.Accomodations.Find(id);
+            db.Accomodations.Remove(accomodation);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                db.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+
+
+    }
+}

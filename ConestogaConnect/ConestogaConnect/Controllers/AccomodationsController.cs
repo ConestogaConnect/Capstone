@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -17,16 +18,137 @@ namespace ConestogaConnect.Controllers
         private AccomodationEntities db = new AccomodationEntities();
 
         // GET: Accomodations
-        public ActionResult Index()
+        public ActionResult Index(int? rooms, decimal? rent, string facilities, int? floors, string pdfrom, string pdto, string ufrom, string uto, bool? petfriendly, bool? parking, bool? furnished)
         {
-            return View(db.Accomodations.ToList());
+            var obj = db.Accomodations.ToList();
+            if(rooms != null && rooms > 0)
+            {
+                obj = obj.Where(x => x.Number_of_Rooms == rooms).ToList();
+            }
+            if (rent != null && rent > 0)
+            {
+                obj = obj.Where(x => x.Rent == rent.ToString()).ToList();
+            }
+            if (floors != null && floors > 0)
+            {
+                obj = obj.Where(x => x.Floor == floors.ToString()).ToList();
+            }
+            if (!string.IsNullOrEmpty(facilities))
+            {
+               obj = obj.Where(x => x.Facilities.ToLower().Contains(facilities.ToLower())).ToList();
+            }
+            if (petfriendly != null)
+            {
+                obj = obj.Where(x => x.PetFriendly == petfriendly).ToList();
+            }
+            if (parking != null)
+            {
+                obj = obj.Where(x => x.Parking == parking).ToList();
+            }
+            if (furnished != null)
+            {
+                obj = obj.Where(x => x.Furnished == furnished).ToList();
+            }
+            if (!string.IsNullOrEmpty(pdfrom))
+            {
+                DateTime date = DateTime.ParseExact(pdfrom, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                obj = obj.Where(x => x.Posted_Date >= date).ToList();
+            }
+            if (!string.IsNullOrEmpty(pdto))
+            {
+                DateTime date = DateTime.ParseExact(pdto,"dd/MM/yyyy", CultureInfo.InvariantCulture);
+                obj = obj.Where(x => x.Posted_Date <= date).ToList();
+            }
+            if (!string.IsNullOrEmpty(ufrom))
+            {
+                DateTime date = DateTime.ParseExact(ufrom, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                obj = obj.Where(x => x.Last_Updated >= date).ToList();
+            }
+            if (!string.IsNullOrEmpty(uto))
+            {
+                DateTime date = DateTime.ParseExact(uto, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                obj = obj.Where(x => x.Last_Updated <= date).ToList();
+            }
+            ViewBag.rooms = rooms;
+            ViewBag.rent = rent;
+            ViewBag.facilities = facilities;
+            ViewBag.floors = floors;
+            ViewBag.pdfrom = pdfrom;
+            ViewBag.pdto = pdto;
+            ViewBag.ufrom = ufrom;
+            ViewBag.uto = uto;
+            ViewBag.petfriendly = petfriendly;
+            ViewBag.parking = parking;
+            ViewBag.furnished = furnished;
+            
+            return View(obj.ToList());
         }
 
         //Display Accomodations-Admin
         [Authorize(Roles = "Admin")]
-        public ActionResult DisplayAccomodations()
+        public ActionResult DisplayAccomodations(int? rooms, decimal? rent, string facilities, int? floors, string pdfrom, string pdto, string ufrom, string uto, bool? petfriendly, bool? parking, bool? furnished)
         {
-            return View(db.Accomodations.ToList());
+            var obj = db.Accomodations.ToList();
+            if (rooms != null && rooms > 0)
+            {
+                obj = obj.Where(x => x.Number_of_Rooms == rooms).ToList();
+            }
+            if (rent != null && rent > 0)
+            {
+                obj = obj.Where(x => x.Rent == rent.ToString()).ToList();
+            }
+            if (floors != null && floors > 0)
+            {
+                obj = obj.Where(x => x.Floor == floors.ToString()).ToList();
+            }
+            if (!string.IsNullOrEmpty(facilities))
+            {
+                obj = obj.Where(x => x.Facilities.ToLower().Contains(facilities.ToLower())).ToList();
+            }
+            if (petfriendly != null)
+            {
+                obj = obj.Where(x => x.PetFriendly == petfriendly).ToList();
+            }
+            if (parking != null)
+            {
+                obj = obj.Where(x => x.Parking == parking).ToList();
+            }
+            if (furnished != null)
+            {
+                obj = obj.Where(x => x.Furnished == furnished).ToList();
+            }
+            if (!string.IsNullOrEmpty(pdfrom))
+            {
+                DateTime date = DateTime.ParseExact(pdfrom, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                obj = obj.Where(x => x.Posted_Date >= date).ToList();
+            }
+            if (!string.IsNullOrEmpty(pdto))
+            {
+                DateTime date = DateTime.ParseExact(pdto, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                obj = obj.Where(x => x.Posted_Date <= date).ToList();
+            }
+            if (!string.IsNullOrEmpty(ufrom))
+            {
+                DateTime date = DateTime.ParseExact(ufrom, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                obj = obj.Where(x => x.Last_Updated >= date).ToList();
+            }
+            if (!string.IsNullOrEmpty(uto))
+            {
+                DateTime date = DateTime.ParseExact(uto, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                obj = obj.Where(x => x.Last_Updated <= date).ToList();
+            }
+            ViewBag.rooms = rooms;
+            ViewBag.rent = rent;
+            ViewBag.facilities = facilities;
+            ViewBag.floors = floors;
+            ViewBag.pdfrom = pdto;
+            ViewBag.pdto = pdto;
+            ViewBag.ufrom = ufrom;
+            ViewBag.uto = uto;
+            ViewBag.petfriendly = petfriendly;
+            ViewBag.parking = parking;
+            ViewBag.furnished = furnished;
+            return View(obj);
         }
 
         // GET: Accomodations/Details/5
@@ -59,8 +181,6 @@ namespace ConestogaConnect.Controllers
         {
             if (ModelState.IsValid)
             {
-                
-
                 accomodation.UserId = User.Identity.GetUserId();
                 accomodation.Posted_Date = DateTime.Now;
                 db.Accomodations.Add(accomodation);
