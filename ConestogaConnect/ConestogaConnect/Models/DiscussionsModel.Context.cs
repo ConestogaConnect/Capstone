@@ -10,13 +10,14 @@
 namespace ConestogaConnect.Models
 {
     using System;
+    using System.Collections.Generic;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
-    
-    public partial class ActivitiesEntities : DbContext
+
+    public partial class DiscussionsEntities : DbContext
     {
-        public ActivitiesEntities()
-            : base("name=ActivitiesEntities")
+        public DiscussionsEntities()
+            : base("name=DiscussionsEntities")
         {
         }
     
@@ -25,9 +26,10 @@ namespace ConestogaConnect.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Activity> Activities { get; set; }
-        public virtual DbSet<Meeting> Meetings { get; set; }
-        public virtual DbSet<MeetingsStatu> MeetingsStatus { get; set; }
-        public virtual DbSet<Program> Programs { get; set; }
+        public virtual DbSet<AspNetUser> AspNetUsers { get; set; }
+        public virtual DbSet<Discussion> Discussions { get; set; }
+        public virtual DbSet<DiscussionComment> DiscussionComments { get; set; }
+        public virtual DbSet<SubComment> SubComments { get; set; }
+        public IEnumerable<object> CommentsVM { get; internal set; }
     }
 }

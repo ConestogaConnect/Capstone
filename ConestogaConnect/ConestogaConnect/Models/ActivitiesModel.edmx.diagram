@@ -6,6 +6,9 @@
     <edmx:Diagrams>
       <Diagram DiagramId="c0e885d696854c6d88165e9114c0911b" Name="Diagram1">
         <EntityTypeShape EntityType="Model3.Activity" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model3.Meeting" Width="1.5" PointX="3.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model3.MeetingsStatu" Width="1.5" PointX="0.75" PointY="4.75" />
+        <EntityTypeShape EntityType="Model3.Program" Width="1.5" PointX="3.375" PointY="5.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
